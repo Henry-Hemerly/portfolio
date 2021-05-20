@@ -1,0 +1,40 @@
+.wrapper {
+    height: 100vh;
+    width: 5vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.line {
+    height: 30vh;
+    width: 50%;
+    border-right: 1px solid white;
+}
+
+.dots {
+    height: 40vh;
+    color: rgb(182, 0, 182);
+}
+
+.list {
+    display: flex;
+    align-items: center;
+    flex-direction: column-reverse;
+    padding: 0;
+    height: 100%;
+    margin: 0;
+    list-style-type: circle;
+    justify-content: center;
+}
+.list li{
+    margin: 0;
+    list-style-position: inside;
+    padding: 0;
+    /* display: inline-block; */
+}
+
+.list li::marker{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
