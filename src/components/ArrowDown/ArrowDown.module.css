@@ -1,0 +1,80 @@
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    justify-self: flex-end;
+    padding-bottom: 20px;
+}
+
+.round {
+    position: absolute;
+    border: 1px solid rgb(255, 0, 255);
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.7);
+    cursor: pointer;
+}
+
+.cta {
+    width: 100%;
+    position: absolute;
+}
+
+.cta .arrow {
+    left: 25%;
+}
+.arrow {
+    position: absolute;
+    bottom: 0;
+    margin-left: 0px;
+    width: 35px;
+    height: 33px;
+    background-size: contain;
+    top: 20px;
+}
+.second {
+    margin-left: 0px;
+}
+.next {
+    background-image: url(https://res.cloudinary.com/henrys-cloud/image/upload/v1622037506/Portfolio/arrow_dwmdhu.svg);
+    background-repeat: repeat-y;
+}
+
+@keyframes bounceAlpha {
+    0% {
+        opacity: 1;
+        transform: translateY(0px) scale(1);
+    }
+    25% {
+        opacity: 0;
+        transform: translateY(10px) scale(1);
+    }
+    26% {
+        opacity: 0;
+        transform: translateY(-10px) scale(1);
+    }
+    55% {
+        opacity: 1;
+        transform: translateY(0px) scale(1);
+    }
+}
+
+.round .arrow {
+    animation-name: bounceAlpha;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+.round .arrow.first {
+    animation-name: bounceAlpha;
+    animation-duration: 2s;
+    animation-delay: 0.2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.round:hover {
+    background-color: rgb(53, 53, 53);
+}

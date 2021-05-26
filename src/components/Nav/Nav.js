@@ -6,16 +6,14 @@ const Nav = props => {
         <div className={styles.wrapper}>
             <div className={styles.line}></div>
             <div className={styles.dots}>
-              <ul className={styles.list}>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                </ul>
+                <div className={styles.dot}></div>
+                <div className={styles.dot}></div>
+                <div className={styles.dot}></div>
+                <div className={styles.dot}></div>
             </div>
             <div className={styles.line}></div>
         </div>
-    )
-}
+    );
+};
 
 export default Nav;

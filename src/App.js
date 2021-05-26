@@ -1,5 +1,6 @@
 import './App.css';
 import Top from './components/Top/Top.js';
+import './index.css';
 
 function App() {
   return (
