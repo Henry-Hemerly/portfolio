@@ -1,10 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Vampiro+One&display=swap');
 .wrapper {
     height: 100vh;
     width: 100vw;
     display: flex;
     align-items: center;
-    background-image: url('https://res.cloudinary.com/henrys-cloud/image/upload/v1622029575/Portfolio/layer1_background_shaded2_zzagfv.webp');
+    background-image: url('https://res.cloudinary.com/henrys-cloud/image/upload/v1622105081/Portfolio/layer1_background_shaded3_lc1y5o.webp');
     background-size: cover;
 }
 
@@ -43,7 +44,6 @@
     font-family: 'Spartan', sans-serif;
     line-height: calc(0.9vw + 0.9vh + 1vmin);
     filter: drop-shadow(2px 2px 1px #000000);
-    /* letter-spacing: 0.03rem; */
 }
 
 .hero_button {
@@ -68,20 +68,14 @@
     color: white;
     margin: 0;
     text-transform: uppercase;
-    font-weight: 800;
+    /* font-weight: 800; */
+    font-family: 'Vampiro One', cursive;
     letter-spacing: 0.05rem;
     font-size: 18px;
 }
 
 .right_wrapper {
     margin: 0 auto;
-}
-
-.dots {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    height: 100%;
 }
 
 @media only screen and (max-width: 1920px) {

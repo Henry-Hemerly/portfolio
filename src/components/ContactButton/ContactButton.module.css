@@ -1,5 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Exo+2:200i);
-
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@100&display=swap');
 :root {
     /* Base font size */
     font-size: 10px;
@@ -9,7 +8,7 @@
     --neon-border-color: #08f;
 }
 
-wrapper {
+.wrapper {
     font-family: 'Exo 2', sans-serif;
     display: flex;
     justify-content: center;

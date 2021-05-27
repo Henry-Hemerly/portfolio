@@ -1,7 +1,7 @@
 .center {
     display: flex;
     align-items: center;
-    justify-content: center;
+    margin-left: calc(50% + 2.5%);
     height: 100px;
     justify-self: flex-end;
     padding-bottom: 20px;
@@ -30,7 +30,7 @@
     bottom: 0;
     margin-left: 0px;
     width: 30px;
-    height: 28px;
+    height: 27px;
     background-size: contain;
     top: 20px;
 }
@@ -76,5 +76,6 @@
 }
 
 .round:hover {
-    background-color: rgb(53, 53, 53);
+    /* background-color: rgba(19, 0, 24, 0.8); */
+    border-color: rgba(225, 0, 255, 0.4);
 }
